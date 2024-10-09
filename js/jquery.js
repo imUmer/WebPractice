@@ -9,5 +9,7 @@
     $("#left-well").children().css("color", "green");
     $(".target:nth-child(2)").addClass("animated bounce");
     $(".target:even").addClass("animated shake");
+    $(".target2").css("background-color", "orange");
+    $(".target2").css("color", "yellow");
 
   });
