@@ -6,3 +6,11 @@ function addData(frame,lname) {
 }
 
 addData(fname, lname)
+
+
+
+function addDetails(address) {
+	console.log(address)
+}
+
+addData('This is user address')
