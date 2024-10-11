@@ -13,4 +13,12 @@ function addDetails(address) {
 	console.log(address)
 }
 
-addData('This is user address')
+addDetails('This is user address')
+
+
+
+function addContact(contact) {
+	console.log(contact)
+}
+
+addData('0352342342')
