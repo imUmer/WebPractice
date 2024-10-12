@@ -1,5 +1,5 @@
 let fname = 'tom';
-Let lname = 'jerry';
+let lname = 'jerry';
 
 function addData(frame,lname) {
 	console.log(data)
