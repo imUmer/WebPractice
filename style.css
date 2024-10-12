@@ -57,7 +57,17 @@ body {
   cursor: pointer;
 }
 
+.hero {
+  background-color: #969696;
+}
 
+.center-section {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 
