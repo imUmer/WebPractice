@@ -120,10 +120,14 @@ body {
 
 .prod {
   height: 240px;
-  width: 240px;
+  width: 25%;
   background-color: #5f6973;
-  overflow: auto;
+  float: left;
+
 }
+
+
+
 
 
 
