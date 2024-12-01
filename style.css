@@ -398,13 +398,13 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: 2rem;
 }
 .exp-skill {
   display: flex;
   /* width: 5rem; */
-  justify-content: space-around;
   gap: 0.5rem;
   padding: 5px;
 }
@@ -417,7 +417,59 @@
   /* text-align: initial; */
   display: flex;
   flex-direction: column;
-  align-items: initial;
   gap: 6px;
   padding-top: 3px;
+  flex-wrap: wrap;
+}
+
+.skills-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.skills-title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  flex: 1 1 calc(50% - 16px);
+  gap: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.skill-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.skill-details {
+  flex: 1;
+}
+
+.skill-name {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.skill-level {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 5px 0 0;
 }
