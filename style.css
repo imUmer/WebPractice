@@ -321,6 +321,11 @@
   height: auto;
   border-radius: 15px;
   box-shadow: 1px 1px 4px rgb(78, 77, 77);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  transition: transform 0.3s ease; 
+}
+.about-left img:hover {
+  transform: translateY(-5px);
 }
 .about-right {
   /* border: 1px solid black; */
